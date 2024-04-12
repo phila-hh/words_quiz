@@ -1,0 +1,83 @@
+.header {
+    font-size: 40px;
+    margin: 10px 0;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    max-width: 400px;
+    margin: 10px auto;
+    gap: 20px;
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question-box {
+    background: linear-gradient(to left, rgb(98,89,120), rgb(52,97,127));
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #bbdd00;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    width: auto;
+    padding: 10px 20px 10px 10px;
+}
+
+.def-box {
+    background: linear-gradient(to left, rgb(98,89,120), rgb(76,52,127));
+    text-align: left;
+    font-size: 15px;
+    color: #f67efd;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choice-box {
+    background-color: rgb(98,89,120);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffb900;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    width: 90px;
+    height: auto;
+    padding: 5px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.done-btn {
+    background: linear-gradient(to left, rgb(196,80,111), rgb(198,186,12));
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(202,203,219,0.5);
+    width: 30px;
+    height: auto;
+    padding: 5px 35px;
+    justify-content: center;
+}

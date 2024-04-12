@@ -1,0 +1,15 @@
+.result-box {
+    background: linear-gradient(to right, rgb(98,89,120), rgb(76,52,127));
+    text-align: center;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+    color: #ffa72e;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    margin: 25px;
+    margin-bottom: 10px;
+}
