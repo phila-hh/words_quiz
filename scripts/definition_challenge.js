@@ -122,7 +122,7 @@ async function get_word_info(word) {
         // Check if sound exists
         if (dictionaryData[0].hwi.prs && dictionaryData[0].hwi.prs[0].sound && dictionaryData[0].hwi.prs[0].sound.audio) {
             const sound = dictionaryData[0].hwi.prs[0].sound.audio;
-            wordInfo.sound = `https://media.merriam-webster.com/audio/prons/en/us/mp3/v/${sound}.mp3`;
+            wordInfo.sound = `https://media.merriam-webster.com/audio/prons/en/us/mp3/number/${sound}.mp3`;
         } else {
             wordInfo.sound = "";
         }
