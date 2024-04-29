@@ -10,20 +10,18 @@ let wrongCount = 0;
 document.addEventListener("DOMContentLoaded", async function() {
     try {
         const randomWords = [];
+
         for (let i = 0; i < 10; i++) {
-            const word = await get_random_word();
-            if (!randomWords.includes(word)) {
-                if (await check_word(word)) {
-                    correctAnswers.push(word); // Add to correct answers list
-                    randomWords.push(word);
+            const rand_word = await get_random_word();
+            if (!randomWords.includes(rand_word)) {
+                if (await check_word(rand_word)) {
+                    correctAnswers.push(rand_word);
+                    randomWords.push(rand_word);
                 } else {
                     i--;
                     continue;
                 }
             }
-        }
-
-        for (let i = 0; i < randomWords.length; i++) {
             const word = randomWords[i];
             const wordInfo = await get_word_info(word);
 
